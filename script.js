@@ -1,4 +1,3 @@
-<script>
         // ======= DYNAMIC STYLES =======
         const style = document.createElement("style");
         style.textContent = `
@@ -678,5 +677,3 @@
         });
 
         observer.observe(document.body, { childList: true, subtree: true });
-
-    </script>
